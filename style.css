@@ -1,0 +1,189 @@
+html {
+    background-image: url("imgs/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 30px 0px 150px 0px;
+    color: aliceblue;
+}
+
+.block-opacity {
+    opacity: 0.7;
+    margin: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footer-button {
+    width: calc(70% / 3);
+    height: 60px;
+    border-radius: 15px 15px 0 0;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+
+}
+.footer-menu-link {
+    background-color: #003cb3;
+}
+.footer-menu-link:hover {
+    color: #003cb3;
+    background-color: aliceblue;
+}
+.footer-about-link {
+    background-color: #b30000;
+
+}
+.footer-about-link:hover {
+    color: #b30000;
+    background-color: aliceblue;
+
+}
+.footer-contact-link {
+    background-color: #003cb3;
+
+}
+.footer-contact-link:hover {
+    color: #003cb3;
+    background-color: aliceblue;
+
+}
+
+.footer-menu-button {
+    background-color: #003cb3;
+    width: 100%;
+}
+.footer-menu-button:hover {
+    color: #003cb3;
+    background-color: aliceblue;
+}
+.footer-about-button {
+    background-color: #b30000;
+    width: 100%;
+
+}
+.footer-about-button:hover {
+    color: #b30000;
+    background-color: aliceblue;
+
+}
+.footer-contact-button {
+    background-color: #003cb3;
+    width: 100%;
+
+}
+.footer-contact-button:hover {
+    color: #003cb3;
+    background-color: aliceblue;
+
+}
+
+.heading {
+
+    font-size: xx-large;
+    font-family: Gabriola;
+    /* background-color: #544639; */
+    background-color: black;
+    color: aliceblue;
+     
+    height: 50%;  
+    width: 80%;
+    text-align: center;
+    padding: 2%;
+}
+.heading p {
+    font-size: x-large;
+}
+
+.menu-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4% 4%;
+    margin: 0 30px;
+   
+}
+.menu-grid-item {
+    background-color: #544639;
+    border-radius: 0.37rem;
+}
+.menu-heading {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.menu-heading h2 {
+    display: inline-block;
+    background-color: aliceblue;
+    color: #544639;
+    padding: 2% 2%;
+    border-radius: 0.37rem;
+}
+
+.menu-flex {
+    flex-direction: row;
+    display: flex;
+    gap: 7% 7%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px 20px;
+
+
+}
+.contact {
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    border-radius: 0.75rem;
+    width: 320px;
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+
+}
+.form {
+    background-color: #544639;
+    color: aliceblue;
+    opacity: 0.8;
+    border-radius: 0.75rem;
+    width: 320px;
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+    text-align: center;
+
+
+}
+
+
+
+.text-lg {
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-input {
+    margin-bottom: 0.5rem;
+    width: 90%;
+    border-radius: 0.37rem;
+}
+.h-input {
+    height: 2rem;
+}
